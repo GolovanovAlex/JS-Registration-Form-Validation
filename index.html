@@ -134,7 +134,25 @@
           ><span class="hide danger-color error-msg" id="password_empty"
             >Password Can not Be Empty</span
           >
+          <div class="password_validation">
+            <ul>
+              <li id="lowChar">At least one lowercase chracter</li>
+              <li id="upChar">At least one uppercase chracter</li>
+              <li id="number">At least one number</li>
+              <li id="speChar">At least one special chracter</li>
+              <li id="eigChar">At least 8 chracters</li>
+            </ul>
+          </div>
+          <input type="checkbox" class="checkbox" />
+          <span class="check_text">I agree to the terms and conditions</span>
+          <button type="submit" id="submint_btn" class="submit_btn">
+            Register
+          </button>
         </form>
+      </div>
+      <div id="Valpopup" class="popup">
+        <i class="fa-sharp fa-solid fa-check valicon"></i>
+        <h2>Register Successfully!</h2>
       </div>
     </div>
 
