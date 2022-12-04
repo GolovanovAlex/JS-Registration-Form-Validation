@@ -61,6 +61,80 @@
           >
           <button class="submit__btn" type="submit">Log in</button>
         </form>
+        <form id="register" class="input__group">
+          <div class="form__div">
+            <input
+              type="text"
+              name="user_name_input"
+              id="user_name_input"
+              class="form__input"
+              placeholder=""
+              autocomplete="off"
+              required
+            />
+            <label for="user_name_input" class="form__label">User Name</label>
+          </div>
+          <span class="hide danger-color error-msg" id="user_name_error"
+            >Invalid Input</span
+          ><span class="hide danger-color error-msg" id="user_name_empty"
+            >User Name Can not Be Empty</span
+          >
+          <div class="form__div">
+            <input
+              type="email"
+              id="email_input"
+              class="form__input"
+              placeholder=""
+              autocomplete="off"
+              required
+            />
+            <label for="email_input" class="form__label">Email</label>
+          </div>
+          <span class="hide danger-color error-msg" id="email_error"
+            >Invalid Email</span
+          ><span class="hide danger-color error-msg" id="email_empty"
+            >Email Can not Be Empty</span
+          >
+
+          <div class="form__div">
+            <input
+              type="tel"
+              id="phone_input"
+              class="form__input"
+              placeholder=""
+              autocomplete="off"
+              required
+            />
+            <label for="phone_input" class="form__label">Phone</label>
+          </div>
+          <span class="hide danger-color error-msg" id="phone_error"
+            >Phone Number Should Have 10 Digits</span
+          ><span class="hide danger-color error-msg" id="phone_empty"
+            >Phone Can not Be Empty</span
+          >
+
+          <div class="form__div">
+            <input
+              type="password"
+              id="password_input"
+              class="form__input"
+              onkeyup="passwordvalidation(this.value)"
+              placeholder=""
+              autocomplete="off"
+              required
+            />
+            <label for="password_input" class="form__label">Password</label>
+            <span class="showbtn"
+              ><i id="showbtn" class="fa-solid fa-eye"></i
+            ></span>
+            <!--fa-eye></i></ion-icon></span>-->
+          </div>
+          <span class="hide danger-color error-msg" id="password_error"
+            >Password Should Have Letters, Special Symbols and Numbers</span
+          ><span class="hide danger-color error-msg" id="password_empty"
+            >Password Can not Be Empty</span
+          >
+        </form>
       </div>
     </div>
 
