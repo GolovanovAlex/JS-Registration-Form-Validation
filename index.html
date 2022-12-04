@@ -15,6 +15,55 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="container">
+      <div class="form__box">
+        <div class="btn__box">
+          <div id="btn"></div>
+          <button type="button" class="toggle__btn" onclick="login()">
+            Log in
+          </button>
+          <button type="button" class="toggle__btn" onclick="register()">
+            Register
+          </button>
+        </div>
+        <div class="sosial__icons">
+          <a href="#"><i class="fa-brands fa-google icon"></i></a
+          ><a href="#"><i class="fa-brands fa-facebook-f icon"></i></a
+          ><a href="#"><i class="fa-brands fa-twitter icon"></i></a>
+        </div>
+        <form id="login" class="input__group" action="">
+          <div class="form__div">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="form__input"
+              placeholder=""
+              autocomplete="off"
+              required
+            />
+            <label for="" class="form__label">User Name</label>
+          </div>
+          <div class="form__div">
+            <input
+              type="password"
+              name=""
+              id=""
+              class="form__input"
+              placeholder=""
+              autocomplete="off"
+              required
+            />
+            <label for="" class="form__label">Password</label>
+          </div>
+          <input type="checkbox" class="checkbox" /><span class="check__text"
+            >Remember Password</span
+          >
+          <button class="submit__btn" type="submit">Log in</button>
+        </form>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
