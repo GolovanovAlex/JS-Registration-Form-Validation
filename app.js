@@ -47,3 +47,13 @@ let emailEmpty = document.getElementById('email_empty');
 let phoneInput = document.getElementById('phone_input');
 let phoneError = document.getElementById('phone_error');
 let phoneEmpty = document.getElementById('phone_empty');
+
+let passwordInput = document.getElementById('password_input');
+let passwordError = document.getElementById('password_error');
+let passwordEmpty = document.getElementById('password_empty');
+let showbtn = document.getElementById('showbtn');
+
+let regiterBtn = document.getElementById('submit_btn');
+
+let validCls = document.getElementById('valid');
+let invalidCls = document.getElementById('error');
