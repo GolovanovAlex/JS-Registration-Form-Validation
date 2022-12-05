@@ -21,8 +21,112 @@ h4 {
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--linear_gradient), url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.form__box {
+  width: 380px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 10px;
+  color: var(--color_white);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.form__div {
+}
+.form__input {
+}
+.form__label {
+}
+.btn {
+}
+.btn__box {
+}
+.toggle {
+}
+.toggle__btn {
+}
+.social {
+}
+.social__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
+.social__icons .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border-radius: 50%;
+  color: var(--color_black);
+}
+.social__icons .icon:hover {
+  background: var(--color_accent);
+  color: var(--color_white);
+}
+.input {
+}
+.input__group {
+}
+.checkbox {
+}
+.check {
+}
+.check_text {
+}
+.check__text {
+}
+.submit {
+}
+.submit_btn {
+}
+.submit__btn {
+}
+.hide {
+  display: none;
+}
+.danger-color {
+}
+.error-msg {
+}
+.showbtn {
+}
+.password {
+}
+.password_validation {
+}
+.popup {
+}
+.fa-sharp {
+}
+.fa-check {
+}
+.valicon {
+}
+.ok {
+}
+.ok_btn {
+}
+.erroricon {
 }
