@@ -8,7 +8,7 @@ function register() {
   log.style.left = '-40rem';
   reg.style.left = '5rem';
   btn.style.left = '11rem';
-  box.style.height = '90rem';
+  box.style.height = '82rem';
 }
 
 function login() {
