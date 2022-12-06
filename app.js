@@ -18,7 +18,7 @@ function login() {
   box.style.height = '55rem';
 }
 
-// ---- ---- button ---- ---- //
+// ---- ---- Button Effect ---- ---- //
 const submitBtns = document.querySelectorAll('.submit_btn');
 submitBtns.forEach((submitBtn) => {
   submitBtn.addEventListener('click', function (e) {
@@ -163,6 +163,7 @@ const validInput = (inputReference) => {
   inputReference.classList.add('valid');
 };
 
+// ---- ---- Name  ---- ---- //
 userNameInput.addEventListener('input', () => {
   if (textVerify(userNameInput.value)) {
     userNameError.classList.add('hide');
@@ -173,6 +174,7 @@ userNameInput.addEventListener('input', () => {
   }
 });
 
+// ---- ---- Email  ---- ---- //
 emailInput.addEventListener('input', () => {
   if (emailVerify(emailInput.value)) {
     emailError.classList.add('hide');
@@ -183,6 +185,7 @@ emailInput.addEventListener('input', () => {
   }
 });
 
+// ---- ---- Phone  ---- ---- //
 phoneInput.addEventListener('input', () => {
   if (phoneVerify(phoneInput.value)) {
     phoneError.classList.add('hide');
@@ -193,6 +196,7 @@ phoneInput.addEventListener('input', () => {
   }
 });
 
+// ---- ---- Password  ---- ---- //
 passwordInput.addEventListener('input', () => {
   if (passwordVerify(passwordInput.value)) {
     passwordError.classList.add('hide');
@@ -203,6 +207,7 @@ passwordInput.addEventListener('input', () => {
   }
 });
 
+// ---- ---- Submit button ---- ---- //
 regiterBtn.addEventListener('click', function (event) {
   event.preventDefault();
   if (invalidCls.length == 0 && validCls.length == 9) {
@@ -212,6 +217,7 @@ regiterBtn.addEventListener('click', function (event) {
   }
 });
 
+// ---- ---- Popup Success and Err ---- ---- //
 let Valpopup = document.getElementById('Valpopup');
 let errorpopup = document.getAnimations('errorpopup');
 
