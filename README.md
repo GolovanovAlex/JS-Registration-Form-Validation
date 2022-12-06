@@ -8,9 +8,9 @@
 
 ---
 
-Demo Link <br/> [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/AlexGolovanov/pen/qBKQbeV) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://golovanovalex.github.io/2023HappyNewYear/)
+Demo Link <br/> [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/AlexGolovanov/pen/MWXZBoO) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://golovanovalex.github.io/JS-Registration-Form-Validation/)
 
-![form](readme/form.webp)
+![form](readme/gif.gif)
 
 ## Info
 
