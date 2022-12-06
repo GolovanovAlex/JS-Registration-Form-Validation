@@ -8,12 +8,14 @@
 
 ---
 
-![under](readme/underconstruction.gif)
+Demo Link <br/> [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/AlexGolovanov/pen/qBKQbeV) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://golovanovalex.github.io/2023HappyNewYear/)
+
+![form](readme/form.webp)
 
 ## Info
 
 Создано на основе Youtube канала [Cosas Learning](https://www.youtube.com/@CosasLearning).  
-Learning **CSS** and **JavaScript**.
+Обучение и работа с **CSS** and **JavaScript**. Валидация данных форм.
 
 ---
 
