@@ -65,63 +65,134 @@ body {
   overflow: hidden;
 }
 .form__div {
+  position: relative;
+  width: 100%;
+  height: 4.8rem;
+  margin: 2rem 0 2.4rem;
 }
-.form__input {
+#btn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 11rem;
+  height: 100%;
+  font-weight: 600;
+  background: var(--color_accent);
+  border-radius: 3rem;
+  transition: 0.5s;
 }
-.form__label {
+#login {
+  left: 5rem;
 }
-.btn {
+#register {
+  left: 45rem;
 }
 .btn__box {
-}
-.toggle {
+  position: relative;
+  width: 22rem;
+  margin: 3.5rem auto;
+  box-shadow: 0 0 2rem 0.9rem #1b1f2955;
+  border-radius: 3rem;
 }
 .toggle__btn {
+  position: relative;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  outline: none;
+  border: 0;
+  background: transparent;
+  transition: 0.3s;
+  cursor: pointer;
 }
-.social {
+.toggle__btn:hover {
+  color: var(--color_white);
 }
 .social__icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 0 20px;
 }
 .social__icons .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.6em;
   background: transparent;
   border-radius: 50%;
   color: var(--color_black);
+  box-shadow: 0 0 2rem 0.9rem #1b1f2955;
+  margin: 0 1.2rem;
+  transition: 0.2s;
 }
 .social__icons .icon:hover {
   background: var(--color_accent);
   color: var(--color_white);
 }
-.input {
-}
+
 .input__group {
+  position: absolute;
+  top: 18rem;
+  width: 28rem;
+  transition: 0.5s;
 }
 .checkbox {
-}
-.check {
+  accent-color: var(--color_success);
+  margin: 2rem 1rem 3rem 0.5rem;
+  box-shadow: 0 0 2rem 0.5rem #1b1f2955;
+  cursor: pointer;
 }
 .check_text {
-}
-.check__text {
-}
-.submit {
+  position: absolute;
+  bottom: 6.8rem;
+  font-size: 1.2rem;
+  color: var(--color_black);
 }
 .submit_btn {
+  position: relative;
+  display: block;
+  width: 85%;
+  padding: 1rem 3rem;
+  margin: auto;
+  font-weight: 600;
+  background-color: transparent;
+  box-shadow: 0 0 2rem 0.9rem #1b1f2955;
+  border: 0;
+  border-radius: 3rem;
+  outline: none;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.submit_btn:hover {
+  color: var(--color_white);
+  background-color: var(--color_accent);
+}
+.submit_btn span {
+  position: absolute;
+  background-color: var(--color_white);
+  border-radius: 50%;
 }
 .hide {
   display: none;
 }
 .danger-color {
+  color: var(--color_danger);
+}
+.error {
+  border-color: var(--color_danger);
+}
+.valid {
+  color: var(--color_success);
 }
 .error-msg {
+  display: block;
+  position: relative;
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
 }
 .showbtn {
 }
