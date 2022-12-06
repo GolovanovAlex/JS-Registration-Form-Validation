@@ -16,79 +16,78 @@
   </head>
   <body>
     <div class="container">
-      <div class="form__box">
-        <div class="btn__box">
+      <div class="form_box">
+        <div class="btn_box">
           <div id="btn"></div>
-          <button type="button" class="toggle__btn" onclick="login()">
+          <button type="button" class="toggle_btn" onclick="login()">
             Log in
           </button>
-          <button type="button" class="toggle__btn" onclick="register()">
+          <button type="button" class="toggle_btn" onclick="register()">
             Register
           </button>
         </div>
-        <div class="social__icons">
+        <div class="social_icons">
           <a href="#"><i class="fa-brands fa-google icon"></i></a
           ><a href="#"><i class="fa-brands fa-facebook-f icon"></i></a
           ><a href="#"><i class="fa-brands fa-twitter icon"></i></a>
         </div>
-        <form id="login" class="input__group" action="">
-          <div class="form__div">
+        <form id="login" class="input_group" action="">
+          <div class="form_div">
             <input
               type="text"
               name=""
-              id=""
-              class="form__input"
+              id="nameuser"
+              class="form_input"
               placeholder=""
               autocomplete="off"
               required
             />
-            <label for="" class="form__label">User Name</label>
+            <label for="" class="form_label">User Name</label>
           </div>
-          <div class="form__div">
+          <div class="form_div">
             <input
               type="password"
               name=""
-              id=""
-              class="form__input"
+              id="passuser"
+              class="form_input"
               placeholder=""
               autocomplete="off"
               required
             />
-            <label for="" class="form__label">Password</label>
+            <label for="" class="form_label">Password</label>
           </div>
           <input type="checkbox" class="checkbox" /><span class="check_text"
             >Remember Password</span
           >
           <button class="submit_btn" type="submit">Log in</button>
         </form>
-        <form id="register" class="input__group">
-          <div class="form__div">
+        <form id="register" class="input_group">
+          <div class="form_div">
             <input
               type="text"
-              name="user_name_input"
               id="user_name_input"
-              class="form__input"
+              class="form_input"
               placeholder=""
               autocomplete="off"
               required
             />
-            <label for="user_name_input" class="form__label">User Name</label>
+            <label for="user_name_input" class="form_label">User Name</label>
           </div>
           <span class="hide danger-color error-msg" id="user_name_error"
             >Invalid Input</span
           ><span class="hide danger-color error-msg" id="user_name_empty"
             >User Name Can not Be Empty</span
           >
-          <div class="form__div">
+          <div class="form_div">
             <input
               type="email"
               id="email_input"
-              class="form__input"
+              class="form_input"
               placeholder=""
               autocomplete="off"
               required
             />
-            <label for="email_input" class="form__label">Email</label>
+            <label for="email_input" class="form_label">Email</label>
           </div>
           <span class="hide danger-color error-msg" id="email_error"
             >Invalid Email</span
@@ -96,16 +95,16 @@
             >Email Can not Be Empty</span
           >
 
-          <div class="form__div">
+          <div class="form_div">
             <input
               type="tel"
               id="phone_input"
-              class="form__input"
+              class="form_input"
               placeholder=""
               autocomplete="off"
               required
             />
-            <label for="phone_input" class="form__label">Phone</label>
+            <label for="phone_input" class="form_label">Phone</label>
           </div>
           <span class="hide danger-color error-msg" id="phone_error"
             >Phone Number Should Have 10 Digits</span
@@ -113,17 +112,17 @@
             >Phone Can not Be Empty</span
           >
 
-          <div class="form__div">
+          <div class="form_div">
             <input
               type="password"
               id="password_input"
-              class="form__input"
+              class="form_input"
               onkeyup="passwordvalidation(this.value)"
               placeholder=""
               autocomplete="off"
               required
             />
-            <label for="password_input" class="form__label">Password</label>
+            <label for="password_input" class="form_label">Password</label>
             <span class="showbtn"
               ><i id="showbtn" class="fa-solid fa-eye"></i
             ></span>

@@ -2,7 +2,7 @@
 let log = document.getElementById('login');
 let reg = document.getElementById('register');
 let btn = document.getElementById('btn');
-let box = document.querySelector('.form__box');
+let box = document.querySelector('.form_box');
 
 function register() {
   log.style.left = '-40rem';
@@ -65,7 +65,7 @@ const textVerify = (text) => {
 };
 
 const emailVerify = (input) => {
-  const regex = /^[a-z0-9_]+@[a-z]{3,}\.[a-z\.]{3,}$/;
+  const regex = /^[a-z0-9_]+@[a-z]{2,}\.[a-z\.]{2,}$/;
   return regex.test(input);
 };
 
